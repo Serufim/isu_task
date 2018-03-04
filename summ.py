@@ -4,7 +4,8 @@ def summator(a: int, b: int) -> int:
 
 def minusator(a: int, b: int) -> int:
     return a - b
-
+def multiply(a:int,b:int=2)->int:
+    return a*2
 
 if __name__ == "__main__":
     result = summator(3, 4)
